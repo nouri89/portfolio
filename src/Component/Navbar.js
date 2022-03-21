@@ -16,7 +16,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
    
     <ul className="navbar-nav ml-auto">
-    <h1 style={{color:"orange",marginRight:"8rem"}}>Abdennour Hachemi</h1>
+    <h1 style={{color:"orange",marginRight:"9rem"}}>Abdennour Hachemi</h1>
       <li className="nav-item active">
         <a className="nav-link" href="#">About Me <span className="sr-only">(current)</span></a>
       </li>
