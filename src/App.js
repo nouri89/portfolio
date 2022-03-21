@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./Component/Navbar"
 import Header from "./Component/Header";
 import Particles from "react-tsparticles";
-import Contact from "./Component/Contact";
+
 
 function App() {
   return (
