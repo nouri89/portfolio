@@ -1,3 +1,12 @@
+
+body{
+
+  font-family: ;
+}
+nav{
+  z-index: 2;
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +21,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +46,119 @@
     transform: rotate(360deg);
   }
 }
+
+.logo{
+
+  width: 4.25rem;
+}
+/* .navbar-nav 
+{
+  font-weight: 500;
+  color: white !important;;
+
+}
+#navbarSupportedContent{
+  font-weight: 500;
+  color: white !important;
+
+} */
+.navbar-nav{
+  margin-left: 70%;
+}
+.navbar-nav > li > a {
+  color: white !important;
+  border-top: 0.1875rem solid rgb(255,255,255,0)  ;
+  margin: 0 0.75rem
+
+
+}
+.navbar-nav> li > a.active , .navbar-nav > li > a.active:focus {
+
+  border-top: 0.1875rem solid orange
+}
+.navbar-nav> li > a:hover {
+  border-top: 0.1875rem solid orange
+
+}
+
+/*    *************** Header    ********* ***************     */
+
+.header-wraper{
+
+  position: relative;
+  background: url("./Component/Pictures/dark-wallpapers.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info{
+  display: flex;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+.main-info h1{
+  color: orange;
+}
+/********************Typed Text **************************/
+.typed-text{
+  font-size: 2rem;
+  color: white;
+  
+}
+/********************Header main offer button**************************/
+.btn-main-offer{
+
+  border: 1px solid red;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem;
+  color: red;
+  text-decoration: none;
+  margin: 2rem;
+  
+}
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: red;
+  color: white;
+}
+
+/******************** Particles *************************/
+#tsparticles{
+  position: absolute;
+  height: 150vh;
+  width: 150vw;
+  z-index: 1;
+
+}
+form input ,form textarea {
+  border:0;
+  margin: 10px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  font-size: 1rem;
+}
+form button{
+  padding: 15px;
+  background: #ff5361;
+  color: #fff;
+  font-size: 1.125rem;
+  border:0;
+  outline: none;
+  cursor: pointer;
+  width: 9.375rem;
+  margin: 1.25rem auto 0;
+  border-radius: 1.875rem;
+}
+
+
+
+
