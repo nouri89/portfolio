@@ -11,9 +11,11 @@ nav{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo {
+  height: 15vh;
+  width: 20vw;
   pointer-events: none;
+  border-radius: 0.6rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
