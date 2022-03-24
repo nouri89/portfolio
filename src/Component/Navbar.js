@@ -2,9 +2,12 @@ import React from 'react'
 import logo from "./Pictures/nouriPhoto.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
+import Contact from './Pages/Contact';
 
  const Navbar = () => {
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className='container'>
     
@@ -17,6 +20,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
    
     <ul className="navbar-nav ml-auto">
     <h1 style={{color:"orange",marginRight:"9rem"}}>Abdennour Hachemi</h1>
+
       <li className="nav-item active">
         <a className="nav-link" href="#">About Me <span className="sr-only">(current)</span></a>
       </li>
@@ -25,7 +29,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
         <a className="nav-link" href="#">Projects</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+      <Link to="/Contact" style={{margin:"10px 10px"}}> Contact</Link> 
       </li>
      
      
@@ -35,8 +39,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
   </div>
 </nav>
 
-   
-
+       
   )
 }
 
