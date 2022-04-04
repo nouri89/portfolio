@@ -10,7 +10,7 @@ function Partical() {
       options={{
         background: {
           color: {
-            value: "white",
+            value: "black",
           },
         },
         fpsLimit: 90,
@@ -70,7 +70,7 @@ function Partical() {
               enable: true,
               area: 800,
             },
-            value: 60,
+            value: 35,
           },
           opacity: {
             value: 0.5,
